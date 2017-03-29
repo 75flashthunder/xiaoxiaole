@@ -1,0 +1,114 @@
+.plotstyle{
+
+    background-color:white;
+    border: 1px #808080 solid;
+    float:right;
+}
+#word{
+    margin-left:30px;
+    font-size:100px;
+    color: transparent;
+    background-color : black;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+.fontstyle{
+    font-size:40px;
+    color: transparent;
+    background-color : black;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+.fontstyle1{
+    font-size:20px;
+    color: transparent;
+    background-color : black;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+#head{
+    width: 50%; 
+    height: 50px; 
+    margin-left: 25%; 
+    margin-top: 20px; 
+}
+#point{
+    background: url(pic/11title.png);  
+    margin-top: 30px; 
+    float: left;
+    width: 200px;
+    height: 150px;  
+    background-repeat:no-repeat ;
+    background-size:100% 100%; 
+    background-attachment: initial;
+}
+#star{
+    background: url(pic/11title.png); 
+    width: 200px;
+    height: 150px;
+    margin-top: 30px; 
+    float: right;
+    background-repeat:no-repeat ;
+    background-size:100% 100%; 
+    background-attachment: initial;
+}
+#conten{
+    width: 100%; 
+    background-color: blue;
+}
+
+#background{      
+    width: 100%; 
+    height:auto; 
+    float:left;
+}
+#can{
+    float:right;
+    background-color:white;
+}
+.bodystyle{
+    background:url(pic/images.jpg);
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat ;
+    background-size:100% 100%; 
+    background-attachment: fixed;
+}
+.pointposition{
+    font-size:20px;
+    margin-left: 35px;
+    position: relative;
+    top: 65px;
+}
+#tips{
+    background: url(pic/5.jpg);
+    width:40px;
+    height:40px;
+    font-size:20px;
+    background-repeat:no-repeat ;
+    background-size:100% 100%; 
+    background-attachment: initial;
+}
+#conmment{
+    width:300px;
+    float: left;
+}
+#walk{
+    width:100px;
+     float: right;
+}
+#huanyou{
+    width:80px;
+    height:80px;
+    display:none;
+    position: relative;
+    top: -280px;
+    left: 360px;
+}
+#jiesuo{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -200px;
+    display: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="level2.js"></script>
+
+<link rel="stylesheet" type="text/css" href="level2.css">
+
+<script type="text/javascript">
+	$(document).ready(function() {
+$("div").on('click', function(e) {
+	   var myVideo=document.getElementById("video1");
+                myVideo.play();   
+	 });
+ });
+</script>
+</head>
+<body onload="setWidth()">
+<div class="back">
+	<div class="title">
+		<div class="left">按键wsad控制小虎移动</div>
+		<div class="right">
+			<button onclick="start()">挑战开始</button>
+		</div>
+	</div>
+	<div class="content">		
+		<div id="no1" class="part">
+		    
+			<img id="xiaohu" width="40" height="40" src="pic\1.png">
+			
+		</div>			
+	</div>	
+</div>
+<video id="video1">
+    <source src="aa.wav" type="video/wav">
+</video>
+
+</body>
+</html>
